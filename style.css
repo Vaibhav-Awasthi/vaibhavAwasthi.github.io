@@ -1,0 +1,264 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:wght@700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    display: flex;
+
+}
+
+.sidebar nav {
+    padding: 43px;
+
+
+}
+
+.sidebar nav li {
+    list-style: none;
+    padding: 30px 0;
+    font-size: 20px;
+    font-family: 'PT Serif', serif;
+}
+
+.sidebar {
+    background-color: aqua;
+    color: black;
+    height: 700px;
+    width: 20vw;
+}
+
+.main {
+    background-color: blueviolet;
+    color: black;
+    height: 700px;
+    width: 100%;
+    display: flex;
+}
+
+.infocontainer {
+    height: 363px;
+    width: 70vw;
+    background-color: rgb(235, 235, 47);
+    color: black;
+    margin: 130px auto;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.info {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.pic img {
+
+    width: 363px;
+
+
+
+}
+
+button {
+    border-radius: 22px;
+    padding: 10px;
+    color: antiquewhite;
+    background-color: blueviolet;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.hello {
+    font-size: 35px;
+    font-weight: 500;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.name {
+    font-size: 43px;
+    font-weight: 200;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+.about {
+    font-family: cursive;
+    font-size: 20px;
+
+}
+
+.location {
+    margin-top: 34px;
+}
+
+.buttons {
+    margin-top: 34px;
+
+}
+
+.buttons button:hover {
+    color: blueviolet;
+    background-color: antiquewhite;
+}
+
+.post {
+
+    font-family: cursive;
+}
+
+.college {
+    height: 300px;
+    width: 100%;
+    background-color: yellow;
+    color: black;
+    border-radius: 170px;
+    margin-top: 38px;
+    text-align: center;
+}
+
+.school {
+    height: 300px;
+    width: 100%;
+    background-color: yellow;
+    color: black;
+    border-radius: 170px;
+    margin-top: 40px;
+    text-align: center;
+
+}
+
+.emain {
+    background-color: blueviolet;
+    color: black;
+    height: 700px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.ex {
+    height: 160px;
+    width: 100%;
+    border-radius: 100px;
+    background-color: yellow;
+    color: black;
+    margin-top: 15px;
+    text-align: center;
+}
+
+.point ol li {
+    height: 40px;
+    background-color: yellow;
+    color: black;
+    margin-top: 35px;
+    border-radius: 12px;
+    font-size: 33px;
+}
+
+.point {
+    padding: 50px;
+}
+
+.hon {
+    height: 160px;
+    width: 100%;
+    border-radius: 100px;
+    background-color: yellow;
+    color: black;
+    margin-top: 15px;
+    text-align: left;
+    padding: 35px;
+    font-size: 39px;
+
+}
+
+.college p {
+    font-size: 40px;
+    text-align: center;
+    font-weight: bold;
+
+}
+
+.college img {
+    margin-left: 41px;
+    width: 152px;
+    height: 68px;
+
+}
+
+.college ul {
+    text-align: left;
+    padding: 33px;
+    font-size: 24px;
+    margin-top: -31px;
+}
+
+.school p {
+    font-size: 40px;
+    text-align: center;
+    font-weight: bold;
+
+
+}
+
+.school ul {
+    text-align: left;
+    padding: 34px;
+    font-size: 24px;
+
+}
+
+footer {
+    display: flex;
+    background-color: black;
+    color: aliceblue;
+    flex-direction: row;
+
+    width: 100%;
+    height: 100%;
+    align-items: center;
+
+
+
+}
+
+footer img {
+    margin-left: 620px;
+}
+
+.ex p{
+    font-size: 26px;
+    font-weight: bold;
+
+
+}
+.ex h3{
+    margin-top: 40px;
+    font-weight: normal;
+}
+.bloc p{
+    font-size: 26px;
+    font-weight: bold;
+
+
+}
+.bloc{
+    background-image: url("fol.jpeg");
+    background-repeat:repeat-x;
+    height: 187px;
+    width: 100%;
+    margin-top: 250px;
+
+}
+.cont{
+    background-color: yellow;
+    height: 530px;
+    width: 100%;
+    color: black;
+    text-align: center;
+   
+}
